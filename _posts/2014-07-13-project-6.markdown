@@ -1,15 +1,15 @@
 ---
 title: Round Icons
-subtitle: Graphic Design
+subtitle: All
 layout: default
 modal-id: 6
-date: 2014-07-15
+date: 2017-07-14
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
 alt: image-alt
-apply-by-date: April 2017
-team: Engineering
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+apply-by-date: Anytime
+team: Internships
+category: All
+description: Check back soon for more details.
 
 ---

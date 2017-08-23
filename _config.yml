@@ -3,7 +3,7 @@ url: https://mygovusa.github.io
 baseurl: ""
 
 # Site settings
-title: Awesome Title
+title: MyGovUSA Homepage
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
@@ -11,50 +11,46 @@ description: "Write an awesome description for your new site here. You can edit 
 # Team names, titles and social links
 people:
 - name: Urban Stewart
-  pic: 4
-  position: CEO and Founder
+  pic: 5
+  position: Founder
   social:
-    - title: twitter
-      url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/urban-stewart-112b559a/
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://www.facebook.com/urbanstewart
+    - title: twitter
+      url: https://twitter.com/MyGovUSA2016
 
 - name: Manny
-  pic: 4
-  position: etc
+  pic: manny2
+  position: Co-Founder
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: linkedin
-      url: #
-
-- name: etc
-  pic: 4
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
+      url: https://www.linkedin.com/in/emmanuel-banda-73312084/
     - title: facebook
       url: #
-    - title: google-plus
-      url: #
+    - title: twitter
+      url: https://twitter.com/MyGovUSA2016
+
+- name: Mike Schoen
+  pic: mike
+  position: Board Member
+  social:
+    # - title: twitter
+    #   url: #
+    # - title: facebook
+    #   url: #
+    # - title: google-plus
+    #   url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: https://twitter.com/MyGovUSA2016
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: https://www.facebook.com/MyGovUSA/
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/MyGovUSA
 
 # Postal address (add as many lines as necessary)
 address:

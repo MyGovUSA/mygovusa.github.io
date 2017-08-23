@@ -1,15 +1,18 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+title: Join the Club
+subtitle: Join the Club
 layout: default
 modal-id: 5
-date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+date: 2017-07-14
+img: logo-big.jpg
+thumbnail: logo-thumbnail.jpg
 alt: image-alt
-apply-by-date: April 2014
-team: Engineering
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+apply-by-date: Anytime
+team: Join the Club
+category: Campus Club
+description: Check our facebook page for more details!
 
+
+[facebook]: https://github.com/seb-patron/AIND-Sudoku
 ---
+
