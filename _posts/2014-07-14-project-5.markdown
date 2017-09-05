@@ -8,11 +8,11 @@ img: logo-big.jpg
 thumbnail: logo-thumbnail.jpg
 alt: image-alt
 apply-by-date: Anytime
-team: Join the Club
+team: Campus Club
 category: Campus Club
-description: Check our facebook page for more details!
+description: Check our <a href="https://orgsync.com/158009/chapter">orgsync page</a> for more!
 
 
-[facebook]: https://github.com/seb-patron/AIND-Sudoku
+[facebook]: https://orgsync.com/158009/chapter
 ---
 
