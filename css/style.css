@@ -1,0 +1,151 @@
+/* For General HTML Tags  */
+html, body {
+    height: 100%;
+    /*overflow-x: hidden;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial,sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* CSS Selectors Ordered by HTML Structure */
+div.container-fluid {
+    height: 100%;
+}
+
+#navbar-logo {
+    width: 4rem;
+    margin-left: 20px;
+}
+
+ul.navbar-nav > li > a {
+    color: white;
+    margin-right: 1.5rem;
+}
+
+ul.navbar-nav {
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    -webkit-transition: all ease .35s;
+    -moz-transition: all ease .35s;
+    transition: all ease .35s;
+    margin: 1rem;
+}
+
+.header-image {
+    background-image: url("../img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#intro-text {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 4.688rem;
+    font-weight: 700;
+    line-height: 75px;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+#intro-button {
+    padding: 1rem 3rem;
+    font-weight: 700;
+    /*font-size: 1.125rem;*/
+}
+
+#vision, #get-involved {
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#get-involved > div.row > div.card-deck > .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+div.card {
+    margin-top: 5.25rem;
+}
+
+div.card-body {
+    color: black;
+}
+
+img.card-img-top {
+    width: 100%;
+    height: 18vw;
+    object-fit: cover;
+}
+
+div.card-body > p {
+    padding-bottom: 1rem;
+}
+
+/* Special Classes */
+
+.inverted {
+    filter: invert(100%);
+}
+
+/* "navbar-scrolled" class and keyframes activated when scrolling */
+.navbar-scrolled {
+    background: rgb(35, 35, 35);
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 0.5s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: rgba(0,0,0,0);}
+    to {background-color: rgb(35, 35, 35);}
+}
+
+/* Chrome */
+@keyframes example {
+    from {background-color: rgba(0,0,0,0);}
+    to {background-color: rgb(35, 35, 35);}
+}
+
+/* Media Queries */
+@media only screen and (max-width: 991px) {
+    #navbar-links {
+        background: rgb(35, 35, 35);
+        color: white;
+        padding-left: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-deck {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        align-items: stretch;
+    }
+    .card-deck .card {
+        display: block;
+        flex-basis: 100%;
+    }
+}
