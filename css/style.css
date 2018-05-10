@@ -6,16 +6,20 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
 p {
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial,sans-serif;
+    font-family: Georgia, "Helvetica Neue", Helvetica, Arial,sans-serif;
 }
 
 a {
     text-decoration: none;
+}
+
+.btn {
+    font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* CSS Selectors Ordered by HTML Structure */
@@ -30,7 +34,7 @@ div.container-fluid {
 
 ul.navbar-nav {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -60,7 +64,7 @@ ul.navbar-nav > li > a {
 }
 
 #intro-text {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 4.688rem;
     font-weight: 700;
     line-height: 75px;
@@ -109,7 +113,7 @@ ul.navbar-nav > li > a {
 
 #contact h2.section-heading {
     color: white;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 44px;
@@ -131,6 +135,10 @@ div.card-body {
     color: black;
 }
 
+.card > a:hover {
+    text-decoration: none;
+}
+
 img.card-img-top {
     width: 100%;
     height: 18vw;
@@ -150,6 +158,7 @@ footer li {
 }
 
 footer a.footer-links {
+    font-family: Georgia, Helvetica, Arial, sans-serif;
     color: #dc3545;
     padding-bottom: 0.5em;
     padding-right: 0.5em;
