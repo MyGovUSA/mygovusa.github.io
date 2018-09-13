@@ -1,20 +1,337 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Local Stylesheets -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto Slab" rel="stylesheet">
+		<!-- Special Imports -->
+    <link rel="icon" type="image/jpg" href="img/logos/mygov-sm.png"/>
+    <title>MyGovUSA - Home</title>
+  </head>
+<body>
+<!-- Header -->
+<div id="header" class="container-fluid header-image">
+	<div class="row">
+		<div class="col-lg-12">
+			<nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+				<a href="#header">
+					<img id="navbar-logo" src="img/logos/mygov-sm.png" class="navbar-brand">
+				</a>
+				<button id="menu-icon" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+					<span><img src="img/icons/menu.svg" class="inverted"></span>
+				</button>
+				<div id="navbar-links" class="collapse navbar-collapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#vision">Vision</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#get-involved">Get Involved</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#our-team">Team</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link">
+								<form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post" id="donate" target="_top">
+									<input type="hidden" name="cmd" value="_s-xclick">
+									<input type="hidden" name="hosted_button_id" value="WC8D5Q4W4TDDL">
+									<input type="submit" id="donate-button" value="Donate" class="">
+								</form>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div> <!-- End of Column -->
+	</div> <!-- End of Row -->
+	<div class="row h-100">
+		<div class="col-lg-12 align-self-center">
+			<p id="intro-text">The future of good citizenship</p>
+			<a class="d-block text-center" href="#vision">
+				<button id="intro-button" class="btn btn-danger text-uppercase">Tell me more</button>
+			</a>
+		</div> <!-- End of Column -->
+	</div> <!-- End of Row -->
+</div> <!-- End of #header Container -->
 
-<div class="home">
+<!-- Vision -->
+<div id="vision" class="container-fluid px-5">
+	<div class="row">
+		<div class="col-lg-12">
+			<h1 class="text-center text-uppercase">Vision</h1>
+			<p class="text-center text-muted font-italic">Join the political evolution by getting your voice heard.</p>
+		</div>
+	</div>
+	<div class="row h-100">
+		<div class="card-deck mx-auto">
+			<div class="card px-5 border-0">
+			<span class="fa-stack fa-4x d-block mx-auto">
+				<i class="fa fa-circle fa-stack-2x text-danger"></i>
+				<i class="fa fa-level-up fa-stack-1x fa-inverse"></i>
+			</span>
+				<h6 class="card-text text-center my-4">Learn</h6>
+				<p class="card-text text-center text-muted">
+					Rise above the political division by having nonpartisan, unbiased information accessible to all citizens.
+				</p>
+			</div> <!-- End of Card 1 -->
+			<div class="card px-5 border-0">
+			<span class="fa-stack fa-4x d-block mx-auto pb-5">
+				<i class="fa fa-circle fa-stack-2x text-danger"></i>
+				<i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+			</span>
+				<h6 class="card-text text-center my-4">Get Involved</h6>
+				<p class="card-text text-center text-muted">Bridge the gap between elected officials and their constituents.</p>
+			</div> <!-- End of Card 2 -->
+			<div class="card px-5 border-0">
+			<span class="fa-stack fa-4x d-block mx-auto pb-4">
+				<i class="fa fa-circle fa-stack-2x text-danger"></i>
+				<i class="fa fa-user fa-stack-1x fa-inverse"></i>
+			</span>
+				<h6 class="card-text text-center my-4">Be Heard</h6>
+				<p class="card-text text-center text-muted">Create a younger, interactive voting block in the United States.</p>
+			</div> <!-- End of Card 3 -->
+		</div> <!-- End of Card Deck -->
+	</div> <!-- End of Row -->
+</div> <!-- End of #vision Container -->
 
-  <h1>Posts</h1>
+<!-- Get Involved -->
+<div id="get-involved" class="container-fluid bg-light px-5">
+	<div class="row">
+		<div class="col-lg-12">
+			<h1 class="text-center text-uppercase">Join our team or donate!</h1>
+		</div>
+	</div>
+	<div class="row h-100">
+		<div class="card-deck mx-auto">
+			<div class="col-md-4 col-sm-10 px-0">
+				<div class="card">
+				<a target="_blank" href="#">
+					<img class="card-img-top mb-4" src="img/cards/asu.png" alt="Arizona State University">
+					<div class="card-body p-3">
+						<h4 class="card-text text-center">Campus Club</h4>
+						<p class="card-text text-center font-italic text-muted">Join the ASU Club</p>
+					</div>
+				</a>
+			</div>
+			<!-- End of Card 1 -->
+			</div>
+			<div class="col-md-4 col-sm-10 px-0">
+				<div class="card">
+					<a target="_blank" href="#">
+						<img class="card-img-top mb-4" src="img/cards/internship.jpg" alt="Internship">
+						<div class="card-body p-3">
+							<h4 class="card-text text-center">Internships</h4>
+							<p class="card-text text-center font-italic text-muted">Work with us</p>
+						</div>
+					</a>
+				</div>
+				<!-- End of Card 2 -->
+			</div>
+			<div class="col-md-4 col-sm-10 px-0">
+				<div class="card">
+					<a target="_blank" onclick="javascript:document.getElementById('donate').submit();">
+						<img class="card-img-top mb-4" src="img/cards/fundraising.jpg" alt="Fundraising">
+						<div class="card-body p-3">
+							<h4 class="card-text text-center">Fundraising</h4>
+							<p class="card-text text-center font-italic text-muted">Contribute to the cause</p>
+						</div>
+					</a>
+				</div>
+				<!-- End of Card 3 -->
+			</div>
+		</div> <!-- End of Card Deck-->
+	</div> <!-- End of Row -->
+</div> <!-- End of #get-involved Container -->
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<!-- About Us -->
+<div id="about" class="container-fluid px-5">
+	<div class="row">
+		<div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+			<h1 class="text-center text-uppercase">About</h1>
+			<br><br><br>
+			<!-- <p style="padding-left:5rem ;padding-right: 5rem"> -->
+			<p>
+				MyGovUSA is a non-profit interactive social media platform created to inspire a more interactive and educated voting block in the United States and bridge the gap between elected officials and their constituents and giving the voice of democracy back to the people.<br><br>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+				Our mission is to organize information on local government through creating an unbiased, non-partisan platform for the public; advocate for transparency in government, voter education, and voter rights; and inspire a more interactive and educated voting block in the United States while staying at the forefront of innovation.<br><br>
 
+				Our purpose is to give users the ability to educate themselves efficiently, without having to go to various websites to find something they can trust and without sorting through all the bias and special interests.<br><br>
+
+				We operate on the belief that is the right of every American citizen to have access to pure information on their local government branches. This organization will create an app for the users smartphone and thus put information in the palm of the users hand. The app will summarize bills and other legislation policies in a way all users can understand the impact of the legislation. The summary will address what effect it will have in their.<br><br>
+
+				Because the MyGovUSA is a non-profit there are no stockholders or owners to please, and with a board of leaders selected from the community whose only goal is to serve the people we truly can say our motto wholeheartedly... <br><br>
+			</p>
+			<h2 class="text-center text-uppercase">
+				"For the People By The People"
+			</h2>
+		</div>
+	</div>
 </div>
+<!-- End of "About Us" -->
+
+<!-- Our Team -->
+<div id="our-team" class="container-fluid px-5 bg-light">
+	<div class="row">
+		<div class="col-lg-12">
+			<h1 class="text-center text-uppercase">
+				Our Amazing Team
+			</h1>
+			<br><br><br>
+		</div>
+	</div>
+	<div class="row h-100">
+		<div class="card-deck mx-auto">
+			<div class="col-md-4">
+				<div class="card border-0 bg-light">
+					<img class="img-circle img-responsive" src="img/profilepics/urban-2.jpeg" alt="Urban Stewart's Profile Image">
+					<h4 class="card-text text-center">Urban Stewart</h4>
+					<p class="card-text text-muted text-center">Founder</p>
+					<ul class="list-inline social-btns">
+						<li>
+							<a target="_blank" href="https://www.linkedin.com/in/urban-stewart-112b559a/">
+								<i class="fa fa-linkedin"></i>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.facebook.com/urbanstewart">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://twitter.com/MyGovUSA2016">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card border-0 bg-light">
+					<img class="img-circle img-responsive" src="img/profilepics/manny-2.jpg" alt="Manny Banda's Profile Image">
+					<h4 class="card-text text-center">Manny Banda</h4>
+					<p class="card-text text-muted text-center">Co-Founder</p>
+					<ul class="list-inline social-btns">
+						<li>
+							<a target="_blank" href="https://www.linkedin.com/in/emmanuel-banda-73312084/">
+								<i class="fa fa-linkedin"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card border-0 bg-light">
+					<img class="img-circle img-responsive" src="img/profilepics/mike.jpg" alt="Mike Schoen's Profile Image">
+					<h4 class="card-text text-center">Mike Schoen</h4>
+					<p class="card-text text-muted text-center">Board Member</p>
+				</div>
+			</div>
+			<div class="col-md-4 offset-md-2">
+				<div class="card border-0 bg-light">
+					<img class="img-circle img-responsive" src="img/profilepics/diana.jpeg" alt="Diana Chen's Profile Image">
+					<h4 class="card-text text-center">Diana Chen</h4>
+					<p class="card-text text-muted text-center">Board Member</p>
+					<ul class="list-inline social-btns">
+						<li>
+							<a target="_blank" href="https://www.linkedin.com/in/dianakchen/">
+								<i class="fa fa-linkedin"></i>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.facebook.com/DianaKChen?fb_dtsg_ag=Adz0neAV7u2WS8EjjxA8cHQ6IjCW5bBqnrTLiucCl2lZ5A%3AAdxZ6x_aOeSyQB1260tKp3rxwcG0xU6x-wsFc6XqOHFopw">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card border-0 bg-light">
+					<img class="img-circle img-responsive" src="img/profilepics/ethan.jpg" alt="Ethan Naluz' Profile Image">
+					<h4 class="card-text text-center">Ethan Naluz</h4>
+					<p class="card-text text-muted text-center">Board Member</p>
+					<ul class="list-inline social-btns">
+						<li>
+							<a target="_blank" href="https://www.linkedin.com/in/ethannaluz">
+								<i class="fa fa-linkedin"></i>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.facebook.com/ethangabrielnaluz">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://twitter.com/ethannaluz">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End of Our Team -->
+
+<!-- Beginning of Contact Us -->
+<div id="contact" class="container-fluid px-5">
+	<div class="row">
+		<div class="col-lg-12 text-center">
+			<h2 class="section-heading text-uppercase">Contact Us</h2>
+			<h3 class="section-subheading text-white">Reach out with any questions at:</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 text-center text-uppercase text-white">
+			<h1><a target="_blank" href="mailto:info@mygovusa.org">info@mygovusa.org</a></h1>
+		</div>
+	</div>
+</div>
+<!-- End of Contact Us -->
+
+<!-- Beginning of footer -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="text-center auto-margin">
+				<p class="copyright">Copyright © MyGovUSA Homepage 2018</p>
+				<ul class="list-inline social-btns">
+					<li>
+						<a target="_blank" href="https://twitter.com/MyGovUSA2016/"><i class="fa fa-twitter"></i></a>
+					</li>
+					<li>
+						<a target="_blank" href="https://www.facebook.com/MyGovUSA/"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li>
+						<a target="_blank" href="https://github.com/MyGovUSA"><i class="fa fa-github"></i></a>
+					</li>
+				</ul>
+				<a target="_blank" class="footer-links" href="#">Privacy Policy</a>
+				<a target="_blank" class="footer-links" href="#">Terms of Use</a>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- End of footer -->
+<!-- Bootstrap's Javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Local Javascript -->
+<script type="text/javascript" src="js/helpers.js"></script>
+</body>
+</html>
+ 
