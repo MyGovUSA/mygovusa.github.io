@@ -57,7 +57,7 @@ ul.navbar-nav > li > a {
 /*}*/
 
 .header-image {
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("../img/blur_bg_image.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -83,8 +83,8 @@ ul.navbar-nav > li > a {
 }
 
 #vision, #get-involved, #about, #our-team, #contact {
-    padding-top: 6.25rem;
-    padding-bottom: 6.25rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
     height: auto;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -118,10 +118,6 @@ ul.navbar-nav > li > a {
     font-size: 40px;
     font-weight: 700;
     line-height: 44px;
-}
-
-#contact h3.section-subheading {
-    margin-bottom: 3em;
 }
 
 div.card {
@@ -186,7 +182,7 @@ img.img-circle {
 }
 
 .card {
-    margin-bottom: 5rem !important;
+    /* margin-bottom: 5rem !important; */
 }
 
 img.img-responsive {
@@ -241,7 +237,7 @@ ul.social-btns li a:before {
 }
 
 #our-team div.card {
-    margin: 0.5em 0.5em;
+    margin: 15px 15px;
 }
 
 /* Special Classes */
