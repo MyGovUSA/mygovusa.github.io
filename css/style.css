@@ -70,7 +70,18 @@ ul.navbar-nav > li > a {
     line-height: 75px;
     text-shadow: 2px 2px 4px black;
     text-align: center;
-    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+#tagline {
+    font-family: Georgia, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 75px;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
     color: white;
     width: 100%;
     margin-bottom: 3rem;
@@ -214,12 +225,13 @@ ul.social-btns li {
     margin: 0px 5px;
 }
 
-ul.social-btns i {
+ul.social-btns i, ul.social-btns a {
     color: white;
 }
 
 ul.social-btns li:hover {
     background-color: #dc3545;
+    cursor: pointer;
 }
 
 ul.social-btns li a {
