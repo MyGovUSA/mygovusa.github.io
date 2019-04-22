@@ -2,11 +2,15 @@
 window.onscroll = () => {
     const nav = document.getElementById("navbar");
     let y = window.scrollY;
-    if(y >= 150) {
+    console.log(window.location.pathname);
+  window.location.pathname.match(/.+index.html/)
+    if (window.location.pathname.match(/.+index.html/)) {
+      if(y >= 150) {
         nav.classList.add("navbar-scrolled");
-    }
-    else {
+      }
+      else {
         nav.classList.remove("navbar-scrolled");
+      }
     }
 };
 
