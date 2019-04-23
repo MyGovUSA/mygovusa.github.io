@@ -2,8 +2,6 @@
 window.onscroll = () => {
     const nav = document.getElementById("navbar");
     let y = window.scrollY;
-    console.log(window.location.pathname);
-  window.location.pathname.match(/.+index.html/)
     if (window.location.pathname.match(/.+index.html/)) {
       if(y >= 150) {
         nav.classList.add("navbar-scrolled");
@@ -18,7 +16,7 @@ window.onscroll = () => {
 // Retrieved from w3schools, makes scrolling smooth on anchor tag clicks in navbar
 $(document).ready(function(){
     // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
+    $("#header a").on('click', function(event) {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
             // Prevent default anchor click behavior

@@ -18,6 +18,10 @@ a {
     text-decoration: none;
 }
 
+.anchor {
+
+}
+
 .btn {
     font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -87,10 +91,14 @@ ul.navbar-nav > li > a {
     margin-bottom: 3rem;
 }
 
-#intro-button {
+#intro-button, #campus-btn {
     padding: 1rem 3rem;
     font-weight: 700;
     /*font-size: 1.125rem;*/
+}
+
+#campus-btn {
+    margin: 1.5em;
 }
 
 #vision, #get-involved, #about, #our-team, #contact {
@@ -101,9 +109,19 @@ ul.navbar-nav > li > a {
     overflow-y: hidden;
 }
 
-#get-involved > div.row > div.card-deck > div > .card:hover {
+#get-involved > div.row > div.card-deck > div > .card:hover, div.clubs-pg .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+}
+
+div.clubs-pg .card.disabled:hover {
+    box-shadow: 0 0 0 0;
+
+}
+
+#clubs {
+    padding-top: 90px;
+    padding-bottom: 1em;
 }
 
 #contact {
@@ -131,8 +149,22 @@ ul.navbar-nav > li > a {
     line-height: 44px;
 }
 
-div.card {
+#vision div.card {
     margin-top: 5.25rem;
+}
+
+#clubs h1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+div.clubs-pg {
+    position: relative;
+    min-height: 100vh;
+}
+
+div.clubs-pg > div.clubs-content-wrapper {
+    padding-bottom: 8.5rem;
 }
 
 div.grid {
@@ -159,6 +191,13 @@ div.card-body > p {
 
 footer {
     padding: 1em 0;
+}
+
+.clubs-pg footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8.5rem;
 }
 
 footer li {
