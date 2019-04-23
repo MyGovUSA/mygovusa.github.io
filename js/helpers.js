@@ -2,7 +2,7 @@
 window.onscroll = () => {
     const nav = document.getElementById("navbar");
     let y = window.scrollY;
-    if (window.location.pathname.match(/.+index.html/)) {
+    if (window.location.pathname.match(/.+clubs.html/) === false) {
       if(y >= 150) {
         nav.classList.add("navbar-scrolled");
       }
