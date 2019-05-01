@@ -299,23 +299,38 @@ ul.social-btns li a:before {
 
 /* "navbar-scrolled" class and keyframes activated when scrolling */
 .navbar-scrolled {
-    background: rgb(35, 35, 35);
+    background: rgba(0, 0, 0, 0.3);
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.75s; /* Safari 4.0 - 8.0 */
     animation-name: example;
-    animation-duration: 0.5s;
+    animation-duration: 0.75s;
 }
 
+.navbar-scrolled {
+     background: rgba(0, 0, 0, 0.3);
+     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+     -webkit-animation-duration: 0.75s; /* Safari 4.0 - 8.0 */
+     animation-name: example;
+     animation-duration: 0.75s;
+ }
+.navbar-absolute {
+     background: rgba(0, 0, 0, 0.3);
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     z-index: 1030;
+ }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
     from {background-color: rgba(0,0,0,0);}
-    to {background-color: rgb(35, 35, 35);}
+    to {background: rgba(0, 0, 0, 0.3);}
 }
 
 /* Chrome */
 @keyframes example {
     from {background-color: rgba(0,0,0,0);}
-    to {background-color: rgb(35, 35, 35);}
+    to {background: rgba(0, 0, 0, 0.3);}
 }
 
 /* Media Queries */
