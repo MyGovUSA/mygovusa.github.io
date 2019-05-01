@@ -2,15 +2,26 @@
 window.onscroll = () => {
     const nav = document.getElementById("navbar");
     let y = window.scrollY;
-    if (window.location.pathname.match(/.+clubs.html/) === false) {
-      if(y >= 150) {
-        nav.classList.add("navbar-scrolled");
-      }
-      else {
-        nav.classList.remove("navbar-scrolled");
-      }
-    }
+     if(y >= 700) {
+          nav.classList.add("navbar-scrolled");
+          
+     }
+     else if (y < 650){
+          nav.classList.remove("navbar-scrolled");
+     }
 };
+
+$(document).ready(function() {
+     var url = window.location.href;
+     var lastPart = url.substr(url.lastIndexOf('/') + 1);
+     if (lastPart === "clubs.html") {
+          const nav = document.getElementById("navbar");
+          nav.classList.remove("navbar-scrolled");
+          nav.classList.remove("top-fixed");
+          nav.classList.add("navbar-absolute");
+     }
+})
+
 
 
 // Retrieved from w3schools, makes scrolling smooth on anchor tag clicks in navbar
